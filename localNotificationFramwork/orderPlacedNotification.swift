@@ -20,7 +20,7 @@ public class OrderPlacedNotifiction {
         let notifContent = UNMutableNotificationContent()
         
         notifContent.title = "Shopping App"
-        notifContent.body = "Order Placed Successfully.\n Thanks for using app."
+        notifContent.body = "Order Placed Successfully.\nThanks for using app."
         notifContent.badge = NSNumber(value: 1)
         
         let notifTrigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
